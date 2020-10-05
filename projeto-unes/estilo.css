@@ -1,0 +1,44 @@
+body {
+    background-image: url('imagens/fundo2.png');
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#cabecalho {
+    margin-bottom: 50px;
+}
+
+#logo {
+    position: relative;
+    top: 15px;
+}
+
+#lista-nav, .lista-nav-itens {
+    display: inline;
+    list-style-type: none;
+}
+
+#lista-nav {
+    padding-left: 40%;
+}
+
+a {
+    color: #08088A;
+    text-decoration: none;
+}
+
+#rodape {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#titulo {
+    margin-top: 8%;
+}
+
+input {
+    margin-bottom: 2%;
+}
