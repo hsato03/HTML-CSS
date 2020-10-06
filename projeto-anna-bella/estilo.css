@@ -1,0 +1,62 @@
+body {
+    background-image: url(imagens/fundo.png);
+    margin-left: 30px;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#capa {
+    width: 800px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#nav-list {
+    background-color: #d4d3be;
+    padding: 15px;
+    margin: 0px;
+    padding: 22px 0px;
+}
+
+.nav-list-item {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #65637b;
+}   
+
+#corpo {
+    background-color: #fdfbed;
+    width: 770px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#titulo {
+    margin: 0px;
+    color: #8f8c75;
+}
+
+.img-campanha {
+    border: 10px solid #d1cfb9;
+    width: 500px;
+}
+
+#contato {
+    margin-top: 8px;
+}
+
+.contato-destaque {
+    font-weight: bold;
+}
+
+#rodape {
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+}
