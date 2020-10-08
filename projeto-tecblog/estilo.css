@@ -1,0 +1,134 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    background: #e6e6e6;
+}
+
+/*----- HEADER -----*/
+#cabecalho {
+    background: #f7b600;
+    color: #FFF;
+    padding: 25px 15px 8px 15px;
+}
+
+/* TÍTULO */
+#titulo {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#cor-titulo {
+    color: #4e4e4e;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-list-item {
+    display: inline;
+}
+
+.nav-link:link, .nav-link:visited {
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.nav-link:hover {
+    color: #f7b600;
+    background: #FFF;
+}
+
+/*------ MAIN ------*/
+main {
+    padding: 1px 160px;
+    display: inline-block;
+}
+
+/* FORMATAÇÃO POSTAGEM */
+.postagem {
+    width: 640px;
+    margin: 24px 0px 20px 0px;
+    background: #FFF;
+    padding: 20px 0px 30px 20px;
+    float: left;
+}
+
+.titulo-postagem {
+    color: #f7b600;
+    margin: 0px;
+}
+
+.data-postagem {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.imagem-postagem {
+    width: 620px;
+}
+
+.texto-postagem, .texto-artigo {
+    margin: 0px 20px 0px 0px;
+}
+
+.link-corpo:link, .link-corpo:visited {
+    text-decoration: none;
+    color: #f7b600;
+    font-size: 18px;
+}
+
+/* FORMATAÇÃO ARTIGO*/
+article {
+    width: 240px;
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+.artigos {
+    background-color: #FFF;
+    margin-top: 24px;
+    padding: 12px;
+}
+
+.titulo-artigo {
+    background: #ccc;
+    color: #565656;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+
+.texto-artigo {
+    font-size: 13px;
+}
+
+.art-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.link-artigo:link, .link-artigo:visited {
+    color: #f7b600;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* FORMATAÇÃO RODAPÉ*/
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #ccc;
+    padding: 15px;
+    margin: 15px 0px;
+}
