@@ -1,0 +1,242 @@
+/*-------- GERAL --------*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #FFF url(../imagens/fundo.png) repeat-x;
+}
+
+/* Container da página */
+#container {
+    width: 61%;
+    margin: 0 auto;
+
+}
+
+#topo {
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right;
+}
+
+
+/*-------- CABEÇALHO --------*/
+/* Logo */
+#logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/* Lista de navegação */
+#nav-topo {
+    margin-top: 30px;
+    background: #b10333;
+}
+
+#nav-topo, .nav-topo-item {
+    float: left;
+}
+
+.nav-topo-link {
+    color: #FFF;
+    padding: 0.5em 1.4em;
+    line-height: 2.1em;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+.nav-topo-link:hover {
+    color: #69001d;
+}
+
+/* Marca página atual */
+.atual {
+    background: #de003e;
+}
+
+/*-------- CORPO --------*/
+main {
+    display: inline;
+}
+
+/* Navegação Lateral */
+#container-nav-lateral {
+    width: 22%;
+    float: left;
+    margin-right: 1.5%;
+    margin-top: 68px;
+}
+
+.nav-lateral {
+    width: 100%;
+    float: left;
+    display: inline;
+    background: url(../imagens/fundo-caixa.png);
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.nav-lateral ul {
+    padding: 5px;
+    background: #FEFDFD;
+}
+
+.nav-lateral-link {
+    color: #000;
+    display: block;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.nav-lateral-link:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat center left;
+    text-indent: 13px;
+    color: #a1a1a1;
+}
+
+form {
+    background: #FFF;
+    padding: 5px;
+}
+
+label {
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+}
+
+input[type="submit"] {
+    width: 80px;
+    color: #FFF;
+    background: #b10333;
+    border: 2px solid #870529;
+    border-radius: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+/* Artigos */
+.container-artigos {
+    width: 33%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 68px;
+    margin-bottom: 20px;
+}
+
+.artigo {
+    width: 100%;
+    background: url(../imagens/fundo-caixa.png);
+    float: right;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.titulo-artigo {
+    color: #FFF;
+    background-color: #294c71;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.corpo-artigo {
+    background: #FFF;
+    padding: 5px;
+}
+
+.imagem-artigo {
+    width: 99%;
+    margin-top: 7px;
+    border: 2px solid lightgrey;
+}
+
+.subtitulo-entrevista, .subtitulo-destaque {
+    display: inline;
+    text-transform: uppercase;
+    padding: 3px;
+    font-size: 13.5px;
+}
+
+.subtitulo-entrevista {
+    font-size: 0.8em;
+    color: #000;
+    background: #DF0101;
+}
+
+.subtitulo-destaque {
+    font-size: 0.8em;
+    color: #FFF;
+    background: #b10333;
+}
+
+.link-artigo {
+    text-decoration: underline;
+    color: #b10333;
+}
+
+
+/* Navegação central */
+.artigo ul {
+    background: #FFF;
+    padding: 5px;
+}
+
+.artigo ul li {
+    height: 62px;
+    border-bottom: 1px solid #ccc;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+.artigo ul li:hover {
+    background: #eee;
+}
+
+.link-nav-central img {
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+
+.link-nav-central h4 {
+    color: #3e7ab9;
+    font-size: 0.8em;
+    padding-top: 5px;
+    text-indent: 2px;
+}
+
+.link-nav-central p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+
+/*ROdape*/
+footer {
+    clear: both;
+    color: #FFF;
+    background: #294c71;
+    margin-top: 30px;
+}
+
+#rodape {
+    width: 63%;
+    margin: 0 auto;
+    padding: 20px;
+}
