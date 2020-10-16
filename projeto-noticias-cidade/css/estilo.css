@@ -38,6 +38,9 @@ body {
 #nav-topo {
     margin-top: 30px;
     background: #b10333;
+    float: left;
+
+    
 }
 
 #nav-topo, .nav-topo-item {
@@ -58,9 +61,18 @@ body {
     color: #69001d;
 }
 
+#nav-topo .primeiro a {
+    background: none;
+}
+
 /* Marca página atual */
-.atual {
+body.home #nav-topo a#home,
+body.brasil #nav-topo a#brasil,
+body.internacional #nav-topo a#internacional,
+body.fotos #nav-topo a#fotos {
+    color: #FFF;
     background: #de003e;
+    cursor: text;
 }
 
 /*-------- CORPO --------*/
@@ -74,13 +86,14 @@ main {
     float: left;
     margin-right: 1.5%;
     margin-top: 68px;
+    min-width: 120px;
 }
 
 .nav-lateral {
     width: 100%;
     float: left;
     display: inline;
-    background: url(../imagens/fundo-caixa.png);
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
     padding: 6px;
     margin-bottom: 12px;
 }
@@ -131,11 +144,24 @@ input[type="submit"] {
 
 /* Artigos */
 .container-artigos {
-    width: 33%;
     float: left;
     margin-left: 4%;
     margin-top: 68px;
     margin-bottom: 20px;
+    min-width: 200px;
+}
+
+#tres-colunas .container-artigos {
+    width: 33%;
+}
+
+#duas-colunas .container-artigos {
+    width: 72%;
+}
+
+#uma-coluna .container-artigos {
+    width: 100%;
+    margin-left: 0;
 }
 
 .artigo {
@@ -143,7 +169,7 @@ input[type="submit"] {
     background: url(../imagens/fundo-caixa.png);
     float: right;
     padding: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .titulo-artigo {
